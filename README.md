@@ -4,7 +4,7 @@ A Deep Q-Network (DQN) agent trained to play Ms. Pac-Man (`ALE/MsPacman-v5`) as 
 
 ## Running it yourself
 
-Open `pacman_dqn.ipynb` in Jupyter, VS Code, or Google Colab with a Python 3.11-3.13 kernel. The notebook installs its own dependencies (see `requirements.txt` for pinned versions) and auto-detects GPU/CPU. Edit the three hyperparameters in section 1, then Run All.
+Open [pacman_dqn.ipynb](pacman_dqn.ipynb) in Jupyter, VS Code, or Google Colab with a Python 3.11-3.13 kernel. The notebook installs its own dependencies (see [requirements.txt](requirements.txt) for pinned versions) and auto-detects GPU/CPU. Edit the three hyperparameters in section 1, then Run All. The linked notebook above is the executed version, with all outputs from the run described below already visible — no need to rerun it to see the results.
 
 ## My three hyperparameters
 
