@@ -47,7 +47,9 @@ Change in mean score: **+528.0 (+107%)**. None of the 10 evaluation games hit th
 
   ![Best trained game](results/demos/final_best_trained.gif)
 
-All GIFs show at most the first 20 seconds of game time at 4x playback speed; reported scores cover the entire evaluated game.
+  This is the seed 505 game that scored **2140** overall — the highest of any evaluation game in this run. That full game actually lasted 684 decisions (~46 seconds), but the GIF cuts off after the first 300 decisions (~20 seconds), so the score visible on screen here is only a mid-game snapshot, not the final 2140. Pac-Man scoring is lumpy (chaining frightened ghosts after a power pellet gives large jumps), so a lot of that game's final score came from action after this clip ends.
+
+**Note on all GIFs:** each one shows at most the first 20 seconds of game time (4x playback speed), but games often run longer than that before ending. The score visible in the GIF is whatever had accumulated by that 20-second cutoff — **not** the final score reported in the tables above, which always covers the entire game.
 
 ## Training budget actually used
 
